@@ -1,0 +1,6 @@
+
+config BR2_PACKAGE_AESD_CHAR
+	bool "aesd_char"
+	depends on BR2_LINUX_KERNEL
+	help
+	  Assignment 8
